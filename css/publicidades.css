@@ -1,0 +1,43 @@
+/*Publicidades*/
+
+.publicidades{ 
+
+  width: 1390px;
+  height: 650px;
+  position: center;
+  background-size: 100%;
+  animation-name: movi;
+  animation-duration: 12s;
+  animation-iteration-count: infinite;
+
+}
+
+@keyframes movi { 
+
+
+  0%,30%{ 
+   background-image: url(../imagenes/desc.jpg);
+   background-repeat: no-repeat;
+   position: center;
+   
+ }
+
+
+ 35%,65% {   
+
+  background-image: url(../imagenes/mm.jpg);
+  background-repeat: no-repeat;
+  position: center;
+
+}
+
+
+
+
+70%, 100% { 
+
+
+  background-image: url(../imagenes/compu.jpg);
+  background-repeat: no-repeat;
+  position: center;
+}

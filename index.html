@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<!--Bootstrap CSS  -->
+	<link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet"> 
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="css/estilos.css">
+	<link rel="stylesheet" type="text/css" href="css/publicidades.css">
+	<link rel="stylesheet" type="text/css" href="css/formulario.css">
+	<link rel="stylesheet" type="text/css" href="css/titulos.css">
+	<link rel="stylesheet" type="text/css" href="css/menu.css">
+	<link rel="stylesheet" type="text/css" href="css/capacitaciones.css">
+	<link rel="stylesheet" type="text/css" href="css/becas.css">
+	<link rel="stylesheet" type="text/css" href="css/trabajosfinales.css">
+	<link rel="stylesheet" type="text/css" href="css/store.css">
+	<link rel="stylesheet" type="text/css" href="css/quiz.css">
+	<link rel="stylesheet" href="css/dados.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/inscripciones.css">
+</head>
+<body>
+	<nav class="navbar navbar-expand-lg" style="background-color: white;">
+		<a href= "pages/menu.html"class="btn">Menu <span class="btn_text">Principal</span></a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+
+		</button>
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<ul class="navbar-nav mr-auto">
+				<li class="nav-item active">
+					<a  href="pages/becas.html"class="btn">Becas <span class="btn_text">Woman</span></a>
+				</li>
+				<li class="nav-item active">
+					<a href="pages/capacitaciones.html" class="btn">Capacitaciones<span class="btn_text">Docentes</span></a>
+				</li>
+				<li class="nav-item active">
+					<a href="pages/inscripciones.html" class="btn">Inscripciones<span class="btn_text">21</span></a>
+				</li>
+
+				<li class="nav-item dropdown">
+					<a href="pages/trabajosfinales.html" class="btn">Work<span class="btn_text">Alumnos</span></a>
+
+				</li>
+
+				<li class="nav-item dropdown">
+					<a href="pages/store.html" class="btn">Store<span class="btn_text">21</span></a>
+
+				</li>
+			</div>
+		</nav>
+
+		<div class="portada" id="portada">
+			<div class="header">
+				<p class="article" id="article">Perspectiva Educativa21</p>
+				<p class="article" id="article">"Un cambio educativo digital,en el que las tecnologias 4.0 avanzan a pasos agigantados"</p>
+				<div class="publicidades"> </div>
+			</div>
+			<div id="cuenta"></div>
+			<br>
+			<br>
+
+			<p>¡Estas a un simple paso de disfrutar tu curso!</p>
+			<p>Solo te llevara un 1 minuto.</p>
+			<p>
+				<mark style="background-color: yellow">  
+					"REGISTRATE"
+				</p>
+			</style>
+
+		</mark>
+		<div class="mains">
+			
+
+			<form action="" class="formulario" id="formulario">
+				<!--  Usuario -->
+				<div class="formulario__grupo" id="grupo__usuario">
+					<label for="usuario" class="formulario__label">Usuario</label>
+					<div class="formulario__grupo-input">
+						<input type="text" class="formulario__input" name="usuario" id="usuario" placeholder="">
+						<i class="formulario__validacion-estado fas fa-times-circle"></i>
+					</div>
+					<p class="formulario__input-error">El usuario tiene que ser de 4 a 16 dígitos.</p>
+				</div>
+
+				<!--  Nombre -->
+				<div class="formulario__grupo" id="grupo__nombre">
+					<label for="nombre" class="formulario__label">Nombre</label>
+					<div class="formulario__grupo-input">
+						<input type="text" class="formulario__input" name="nombre" id="nombre" placeholder="">
+						<i class="formulario__validacion-estado fas fa-times-circle"></i>
+					</div>
+					<p class="formulario__input-error">El usuario tiene que ser de 4 a 16 dígitos.</p>
+				</div>
+
+				<!--  Contraseña -->
+				<div class="formulario__grupo" id="grupo__password">
+					<label for="password" class="formulario__label">Contraseña</label>
+					<div class="formulario__grupo-input">
+						<input type="password" class="formulario__input" name="password" id="password">
+						<i class="formulario__validacion-estado fas fa-times-circle"></i>
+					</div>
+					<p class="formulario__input-error">La contraseña tiene que ser de 4 a 12 dígitos.</p>
+				</div>
+
+				<!--  Contraseña 2 -->
+				<div class="formulario__grupo" id="grupo__password2">
+					<label for="password2" class="formulario__label">Repetir Contraseña</label>
+					<div class="formulario__grupo-input">
+						<input type="password" class="formulario__input" name="password2" id="password2">
+						<i class="formulario__validacion-estado fas fa-times-circle"></i>
+					</div>
+					<p class="formulario__input-error">Ambas contraseñas deben ser iguales.</p>
+				</div>
+
+				<!--  Correo Electronico -->
+				<div class="formulario__grupo" id="grupo__correo">
+					<label for="correo" class="formulario__label">Correo Electrónico</label>
+					<div class="formulario__grupo-input">
+						<input type="email" class="formulario__input" name="correo" id="correo" placeholder="correo@correo.com">
+						<i class="formulario__validacion-estado fas fa-times-circle"></i>
+					</div>
+					<p class="formulario__input-error">El correo solo puede contener letras, numeros, puntos, guiones y guion bajo.</p>
+				</div>
+
+				<!-- Teléfono -->
+				<div class="formulario__grupo" id="grupo__telefono">
+					<label for="telefono" class="formulario__label">Teléfono</label>
+					<div class="formulario__grupo-input">
+						<input type="text" class="formulario__input" name="telefono" id="telefono" placeholder="">
+						<i class="formulario__validacion-estado fas fa-times-circle"></i>
+					</div>
+					<p class="formulario__input-error">El telefono solo puede contener numeros y el maximo son 14 dígitos.</p>
+				</div>
+
+				<!--  Terminos y Condiciones -->
+				<div class="formulario__grupo" id="grupo__terminos">
+					<label class="formulario__label">
+						<input class="formulario__checkbox" type="checkbox" name="terminos" id="terminos">
+						Acepto los Terminos y Condiciones
+					</label>
+				</div>
+
+				<div class="formulario__mensaje" id="formulario__mensaje">
+					<p><i class="fas fa-exclamation-triangle"></i> <b>Error:</b> Por favor rellena el formulario correctamente. </p>
+				</div>
+
+				<div class="formulario__grupo formulario__grupo-btn-enviar">
+					<button type="submit" class="formulario__btn">Enviar</button>
+					<p class="formulario__mensaje-exito" id="formulario__mensaje-exito">Formulario enviado exitosamente!</p>
+				</div>
+			</form>
+		</div>
+		<main class="text">
+			<h1>Promocion sin obligacion de compra y hasta agotar stock. Valida para personas mayores de 18 años, desde 00:00 horas del 1 de Enero de 2021 hasta las 23:59 horas del 31 de Enero de 2021 inclusive. 
+			Ver Bases y condiciones en: http://perspectiva21.com</h1>
+		</main>
+
+		<div class="redes-sociales">
+			<a href="https://www.facebook.com/PerspectivaEdu21" class="btn-red-social"><i class="fab fa-facebook-f"></i></a>
+			<a href="https://www.twitter.com/PerspectivaEdu21" class="btn-red-social"><i class="fab fa-twitter"></i></a>
+			<a href="https://www.instagram.com/PerspectivaEdu21" class="btn-red-social"><i class="fab fa-instagram"></i></a>
+		</div>
+	</div>
+	<br><br>
+	<footer class="page-footer  bg-dark text-white">
+		<div class="footer-copyright font-small py-3  text-center"> 
+			© 2020 Copyright:
+			<a href="https://perspectiva21.blogspot.com/" target="_blank">
+				perspectiva21.blogspot.com
+			</a>
+		</div>
+	</footer>
+
+	<script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+	<script src="js/simplyCountdown.min.js"></script>
+	<script src="js/countdown.js"></script>
+	<script src="js/formulario.js"></script>
+	<script src="js/modificando.js"></script>
+	<script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+	<script src="js/becas.js"></script>
+	<script src="js/trabajos.js"></script>
+	<script src="js/trabajosfinales.js"></script>
+	<script src="js/store.js"></script>
+	<script src="js/quiz.js"></script>
+	<script src="js/dados.js"></script>
+	<script src="js/dados2.js"></script>
+	<script src="js/ajax2.js"></script>
+	<script src="js/tienda.js"></script>
+	
+
+</body>
+</html>

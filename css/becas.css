@@ -1,0 +1,58 @@
+h1 {  
+
+	color:white;
+
+
+}
+
+.container{ 
+
+	text-align:left;
+	margin-left:320px;
+	padding-bottom: 5px;
+	background-color:#ff0ac6;
+	width: 49%;
+    text-align: center;
+	padding:22px; 
+	
+
+
+}
+
+p{ 
+
+	color: white;
+
+
+}
+
+h1{ text-align: center; }
+
+
+h2{
+
+	color: white;
+
+	font-size: 35px;
+	text-align: center;
+	position: center;
+	letter-spacing: 5px;
+	padding: 5px;
+
+
+
+}
+#imagenes{ 
+	width: 90%;
+	margin: auto;
+	padding-top: 0px;
+	margin-top: 0px;
+
+}
+
+#imagenes img { 
+	width: 40%;
+
+	opacity: 0;
+
+}

@@ -1,0 +1,67 @@
+/*Bloque*/
+.btn {
+  text-decoration: none;
+  background-color: #49aade;
+  color: #fcfcfc;
+  border-radius: 3px;
+  display: inline-block;
+  margin: 5px;
+  font-size: 20px;
+  text-transform: uppercase;
+  padding: 5px; }
+
+.btn_prince {
+  text-decoration: none;
+  background-color: #36194d;
+  color: #fcfcfc;
+  padding-right: 12px;
+  padding-left: 12px;
+  margin-right: -10px;
+  font-size: 30px;
+  opacity: -4;
+  border-radius: 1px; }
+
+/*Elemento*/
+.btn_text {
+  padding: 0 10px;
+  border-radius: 5px;
+  background-color: #eb55ed;
+  color: #fcfcfc; }
+
+/*Modificador*/
+.btn--red {
+  color: #fcfcfc;
+  background-color: #edab55; }
+
+.btn--blue {
+  color: #fcfcfc;
+  background-color: #026360; }
+
+.box_uno {
+  background-color: #49aade;
+  color: #fcfcfc;
+  width: 1000px; }
+
+.box_cuatro {
+  background-color: #eb55ed;
+  color: #fcfcfc;
+  width: 1000px; }
+
+.box_seis {
+  background-color: #0a0a0a;
+  color: #fcfcfc;
+  width: 200px; }
+
+.box_siete {
+  background-color: #595959;
+  color: #fcfcfc;
+  width: 500px; }
+
+.box_8 {
+  background-color: #ff0a1b;
+  color: #fcfcfc;
+  width: 200px; }
+
+.boxs {
+  height: 150px;
+  width: 200px; }

@@ -1,0 +1,107 @@
+body {
+	background: black;
+	font-family: 'Abel', sans-serif;}
+
+
+	.portada {
+		width: auto;
+		background: black;
+		height:auto;
+		position: relative;}
+
+
+		.text { 
+			color: white;
+			font-size: 12px;
+			margin-top: 0px;}
+         
+		.article { 
+			color: white;
+			font-size: 30px;
+			margin-top: 0px;}
+
+
+
+
+			main {
+				max-width: 1000px;
+				margin: auto;
+				width: 90%;
+				padding: 60px 0;
+				font-size: 18px;
+				line-height: 28px;
+				text-align: left;}
+
+				#cuenta {
+					display: flex;
+					position: center;
+					margin-left: 300px;
+					color: black;
+
+				}
+
+				.simply-section {
+					background: #fff;
+					width: 150px;
+					height: 150px;
+					margin: 0 20px;
+					border-radius: 5px;
+					display: flex;
+					align-items: center;
+					justify-content: center;
+					position: center;
+				}
+
+				.simply-amount {
+					display: block;
+					font-size: 30px;
+					font-weight: 400;
+					position: center;
+				}
+
+				.simply-word {
+					font-weight: 300;
+					font-size: 30px;
+					position: center;
+				}
+
+
+				.redes-sociales .btn-red-social {
+
+					padding: 10px;
+					position: center;
+					display: inline-block;
+					border-radius: 5px;
+					background:#303F9F;
+					color: #fff;
+					font-size: 20px;
+					margin left: 80;
+					margin-right: 80px;
+					transition: .3s ease all;
+				}
+
+				.redes-sociales .btn-red-social:hover {
+					box-shadow: 0px 0px 5px 5px rgba(0,0,0,.15);
+				}
+
+				.page-footer{
+					position: static;
+					bottom: 0 !important;
+					height: 60px;
+					width: 100%; 
+					text-align: center;
+				}
+
+				.footer-copyright a {
+					text-decoration: none;
+					font-size: 15px;
+					color: gold;
+					font-weight: 500;
+					text-align: center;
+				}
+
+
+
+
+
+ 

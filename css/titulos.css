@@ -1,0 +1,56 @@
+ 
+
+h1 { 
+	font-size: 12px;
+	color: white;
+}
+
+h2 { 
+	font-size: 30px;
+	color: white;
+	text-align: center;
+}
+
+
+
+h3 {font-size:25px;
+	letter-spacing: 3px;
+	color: white;
+	position: center;
+	margin: 25px;
+
+}
+
+
+p { 
+	font-size: 22px;
+	color: white;
+	line-height: 2rem;
+	margin-right: 0px;
+	margin-left: 5px;
+	letter-spacing: 1px;
+	text-align: center;
+	align-content: center;
+	margin-top: 5px;
+    padding-top: 5px;
+    position: center;
+}
+
+
+h4 { 
+	font-size:20px;
+	color: white;
+	position: center;
+	margin: 30px;
+	
+
+}
+
+h5 { 
+	font-size:20px;
+	color: black;
+	position: center;
+	margin: 30px;
+	background: yellow;
+}
+

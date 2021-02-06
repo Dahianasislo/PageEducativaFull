@@ -1,0 +1,2 @@
+document.getElementById("titulo").innerHTML= "<h2 style='color: white;'>Perspectiva Educativa Digital 21";
+document.getElementById("article").innerHTML= "<h3 style ='color:white;'> Un cambio de paradigma educativo";
